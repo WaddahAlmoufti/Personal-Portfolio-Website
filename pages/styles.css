@@ -1,0 +1,282 @@
+
+section{
+    background-color: white;
+    border: solid #fffef7 1px;
+
+}
+
+.header{
+    height: 100vh;
+    background-color: #fffef7;
+    color: #db8a6c;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+
+}
+
+
+.header_container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_links{
+    padding-bottom: 200px;
+
+}
+
+#skill_header{
+    margin-bottom: 5px;
+}
+
+.skills{
+    font-size: 25px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.top_link{
+    text-decoration: none;
+    color: #db8a6c;
+}
+
+.button_link{
+    text-decoration: none;
+    color: #fffef7;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
+
+
+li{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin:0;
+}
+
+p{
+    margin:0;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.header_info{
+    margin-left: 45px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #bcbcb4;
+    color: #fffef7;
+    font-size: 40px;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #db8a6c;
+    color: #fffef7;
+}
+
+.button:active{
+    background-color: #db8a6c;
+    color: #fffef7;
+}
+
+.logo{
+    height: 75px;
+    margin: 30px;
+}
+
+.social{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.github{
+    margin-bottom: 10px;
+}
+
+.second_section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #db8a6c;
+    font-family: 'Oswald', sans-serif;
+    padding: 60px;
+    font-size: 45px;
+    color: #fffef7;
+}
+
+
+#about{
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+.info{
+    font-size: 30px;
+    color: #fffef7;
+    margin-bottom: 15px;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+    border-color: #fffef7;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.third_section{
+    background-color: #fffef7;
+    color: #db8a6c;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.project_card{
+    width: 300px;
+    height: 600px;
+    box-shadow: 5px 5px 20px #bcbcb4;
+    margin: 10px;
+}
+
+.project_container{
+    display:flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1300px){
+    .project_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .second_section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #ham{
+        border:0;
+        background-color: transparent;
+        color: #fffef7;
+        font-size: 50px;
+        display: block;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color: #db8a6c;
+        margin: 0px;
+        color: #fffef7;
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #db8a6c;
+        color: #fffef7;
+    }
+
+    .top_link{
+        text-decoration: none;
+        color: #fffef7;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+
+.subtext{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.project_icon{
+    width: 200px;
+    /* border-radius: 100px; */
+    /* border: solid #db8a6c 1px; */
+    margin-top: 25px;
+    
+}
+
+.github_project{
+    margin: 10px;
+}
+
+.lang{
+    font-size: 20px;
+    font-weight: 300;
+    /* width: 300px; */
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact_social{
+    justify-content: space-around;
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: #bcbcb4;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #fffef7;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.ham{
+    display: none;
+}
+
+.ham:focus{
+    outline: 0;
+}
+
+
